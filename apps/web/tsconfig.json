@@ -1,0 +1,16 @@
+{
+  "extends": "tsconfig/nextjs.json",
+  "compilerOptions": {
+    "plugins": [{ "name": "next" }],
+    "baseUrl": "."
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "../../packages/ui/components/ui/button.tsx",
+    "../../packages/ui/components/ui/aspect-ratio.tsx"
+  ],
+  "exclude": ["node_modules"]
+}

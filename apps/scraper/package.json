@@ -1,0 +1,20 @@
+{
+  "name": "scraper",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "vitest",
+    "dev": "dotenv -e .env -- ts-node scrapeEbayCardData.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "vitest": "^0.34.5"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.36.0",
+    "dotenv-cli": "^7.3.0",
+    "puppeteer": "^21.2.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
